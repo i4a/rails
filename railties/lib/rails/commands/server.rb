@@ -114,7 +114,8 @@ module Rails
         daemonize:          false,
         debugger:           false,
         pid:                File.expand_path("tmp/pids/server.pid"),
-        config:             File.expand_path("config.ru")
+        config:             File.expand_path("config.ru"),
+        early_hints:        true
       })
     end
 
